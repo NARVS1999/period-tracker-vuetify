@@ -14,6 +14,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/period-tracker-vuetify/',   // <-- slash + repo name + slash
   plugins: [
     VueRouter(),
     Layouts(),
